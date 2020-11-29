@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Webserver Success</title>
+</head>
+<style>
+    input {
+        padding: 12px;
+    }
+
+    #container {
+        width: 800px; height: 400px; margin: 100px auto;
+        padding-top: 50px;
+        background: rgb(120,180,255);
+    }
+
+    .border-rounded, .border-rounded>*>* {
+        border: none;
+        border-radius: 10px;
+    }
+
+    input[type="submit"] {
+        margin: 12px;
+        background: navy;
+        color: white;
+        width: 80px;
+    }
+</style>
+<body style="text-align: center;">
+<div class="border-rounded" id="container">
+    <h2>FriendBook</h2>
+    <h3 th:text="'Welcome ' + ${username}"></h3>
+</div>
+</body>
+</html>
