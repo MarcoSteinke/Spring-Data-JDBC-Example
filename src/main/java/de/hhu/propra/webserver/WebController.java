@@ -1,6 +1,7 @@
 package de.hhu.propra.webserver;
 
 import de.hhu.propra.webserver.model.User;
+import de.hhu.propra.webserver.services.Fehler;
 import de.hhu.propra.webserver.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -39,7 +40,7 @@ public class WebController {
                 return "success";
             }
         } else {
-            model.addAttribute("error", "This username already exists.");
+            model.addAttribute("error", Fehler.USER_EXISTS);
             return "error";
         }
 
