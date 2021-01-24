@@ -13,22 +13,19 @@ This is a simple Webserver Implementation with Spring Boot
 
 ## 2. How to:
 
-* 1. clone repository.
-
-##### SSH:
+1. clone repository (SSH/HTTPS)
 
     git clone git@github.com:MarcoSteinke/WebServer.git
 
-##### Without SSH:
-
     git clone https://github.com/MarcoSteinke/WebServer.git
 
-* 2. run the docker-compose.yml.
+2. run the docker-compose.yml
 
     docker-compose up
 
-* 3. run the application via IntelliJ.
-* 4. Call `https://localhost:8080` in your web browser.
+3. run the application via IntelliJ
+
+4. Call `https://localhost:8080` in your web browser
 
 ## 3. License
 
