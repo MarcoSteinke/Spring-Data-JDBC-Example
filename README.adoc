@@ -27,6 +27,12 @@ This is a simple Webserver Implementation with Spring Boot
 
 4. Call `https://localhost:8080` in your web browser
 
-## 3. License
+## 3. Screenshots:
+
+image::https://www.github.com/MarcoSteinke/WebServer/tree/img/register.PNG[]
+image::https://www.github.com/MarcoSteinke/WebServer/tree/img/success.PNG[]
+image::https://www.github.com/MarcoSteinke/WebServer/tree/img/workbench.PNG[]
+
+## 4. License
 
 This project is for learning purposes only and is not licensed at all.
