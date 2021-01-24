@@ -15,9 +15,9 @@ This is a simple Webserver Implementation with Spring Boot
 
 1. clone repository (SSH/HTTPS)
 
-    git clone git@github.com:MarcoSteinke/WebServer.git
+    git clone git@github.com:MarcoSteinke/Spring-Data-JDBC-Example.git
 
-    git clone https://github.com/MarcoSteinke/WebServer.git
+    git clone https://github.com/MarcoSteinke/Spring-Data-JDBC-Example.git
 
 2. run the docker-compose.yml
 
