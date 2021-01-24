@@ -1,4 +1,4 @@
-# WebServer
+# Spring Data JDBC Example
 
 This is a simple Webserver Implementation with Spring Boot
 
