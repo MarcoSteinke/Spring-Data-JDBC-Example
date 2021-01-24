@@ -2,4 +2,34 @@
 
 This is a simple Webserver Implementation with Spring Boot
 
-This is a line.
+## 1. Features:
+
+* provides User Registration and Login
+* secured user information by "pseudo-encryption"
+(do not use this type of encryption in the reality!!!)
+* uses Spring Data JDBC to persist users
+* includes a docker-compose.yml to start a mysql database
+* the application.properties are linked to the mysql database
+
+## 2. How to:
+
+* 1. clone repository.
+
+##### SSH:
+
+    git clone git@github.com:MarcoSteinke/WebServer.git
+
+##### Without SSH:
+
+    git clone https://github.com/MarcoSteinke/WebServer.git
+
+* 2. run the docker-compose.yml.
+
+    docker-compose up
+
+* 3. run the application via IntelliJ.
+* 4. Call `https://localhost:8080` in your web browser.
+
+## 3. License
+
+This project is for learning purposes only and is not licensed at all.

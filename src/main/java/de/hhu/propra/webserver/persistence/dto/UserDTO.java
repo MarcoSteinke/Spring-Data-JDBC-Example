@@ -2,11 +2,12 @@ package de.hhu.propra.webserver.persistence.dto;
 
 import lombok.*;
 
+// It is allowed to use the wildcard import for persistence annotations.
 import javax.persistence.*;
 
-// Spring Data JDBC benötigt immer einen DefaultConstructor
-// Aus diesem Grund sollte die Klasse definitiv mit @NoArgsConstructor annotiert sein!
-// Außerdem ist es auschlaggebend, dass die Felder des DTO nicht final und nicht private sind.
+// Spring Data JDBC always requires the DTO's to have default constructors.
+// Thus all DTO's have to be annotated with @DefaultConstructor.
+// It is also very important for the DTO's fields to be non-final and non-private.
 
 @Data
 @Builder
