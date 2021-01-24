@@ -15,7 +15,6 @@ public class WebController {
 
     UserService userService;
 
-    @Autowired
     public WebController(UserService userService) {
         this.userService = userService;
     }
