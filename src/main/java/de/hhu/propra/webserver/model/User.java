@@ -20,6 +20,13 @@ public class User {
         this.password = PasswordService.hash(password, salt);
     }
 
+    // Constructor for mapper only
+    public User(String username, String password, String salt) {
+        this.username = username;
+        this.salt = salt;
+        this.password = password;
+    }
+
     public boolean isValid() {
         return this.username != "error";
     }
